@@ -18,7 +18,7 @@ public class Hash {
 		System.out.println("The capital of South-West is " + cap);
 
 		String rm = map.remove("Cameroon");
-		System.out.println(new StringBuilder().append("this key has been remove ").append(rm).toString());
+		System.out.println("this key has been remove " + rm);
 	}
 
 }

@@ -1,20 +1,7 @@
 package com.company;
 
-import java.util.Arrays;
-
-
-
 public class BinarySearch {
-	public static void main(String[] args) {
-		int[] whitelist = In.readInts(args[0]);
-		Arrays.sort(whitelist);
-		while (!stdIn.isEmpty()) {
-			int key = StdIn.readInt();
-			if (rank(key, whitelist) == -1) {
-				StdOut.println(key);
-			}
-		}
-	}
+	
 	//The ranking method
 	public static int rank(int key, int[] a) {
 		int low = 0;
@@ -29,5 +16,18 @@ public class BinarySearch {
 				return mid;
 		}
 		return -1;
+	}
+	
+	public static void main(String[] args) {
+/*
+		int[] whitelist = System.in.read(args[0]);
+		Arrays.sort(whitelist);
+		while (!.isEmpty()) {
+			int key = StdIn.readInt();
+			if (rank(key, whitelist) == -1) {
+				StdOut.println(key);
+			}
+		}
+*/
 	}
 }

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BinarySearchDemo {
 
 	public static void main(String[] args) {
-		int arr [] = {23, 12, 34, 45, 7};
+		int[] arr = {23, 12, 34, 45, 7};
 		int num_search = 23;
 		Arrays.sort(arr);
 		for (int i = 0; i<arr.length; i++)
