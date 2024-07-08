@@ -1,0 +1,1 @@
+class Rock extends Pieces {    boolean isValidMove(Position newPosition) {        if (newPosition.column == this.column || newPosition.row == this.row) {            return true;        } else {            return false;        }    }}
