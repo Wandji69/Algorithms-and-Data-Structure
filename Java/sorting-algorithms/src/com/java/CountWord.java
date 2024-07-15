@@ -1,4 +1,4 @@
-package com.company.StringExamples;
+package com.java;
 
 public class CountWord {
     public static int count(String word) {
